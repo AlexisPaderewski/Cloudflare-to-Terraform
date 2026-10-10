@@ -1,0 +1,20 @@
+# Local Terraform binaries downloaded for manual use
+/terraform
+/cf-terraforming
+*.zip
+*.tar.gz
+
+# Local directories and outputs
+/cloudflare_configs/
+
+# Local Terraform working directories & state files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!example.tfvars
+.terraform.lock.hcl
+
+# environment files
+.env*
